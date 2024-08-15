@@ -1,4 +1,5 @@
 import PropTypes from "prop-types"
+import "./AlbumCard.css"
 
 function AlbumCard({ albumImage, albumName, albumArtistName }) {
   AlbumCard.propTypes = {
@@ -7,12 +8,12 @@ function AlbumCard({ albumImage, albumName, albumArtistName }) {
     albumArtistName: PropTypes.string.isRequired
   };
   return (
-    <div className="album">
-      <button type="button" className="album-button">
-        <img src={albumImage} />
-        <p>{albumName}</p>
-        <p>{albumArtistName}</p>
-      </button>
+    <div className="album-card">
+      <img src={albumImage} alt={albumName} className="album-cover" />
+      <div className="album-info">
+        <p className="album-title">{albumName}</p>
+        <p className="artist-name">{albumArtistName}</p>
+      </div>
     </div>
   );
 }

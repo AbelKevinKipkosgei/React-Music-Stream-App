@@ -1,0 +1,5 @@
+.album-list {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

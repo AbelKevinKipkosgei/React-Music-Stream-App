@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import AlbumCard from "./AlbumCard";
 import PropTypes from "prop-types"
+import "./AlbumList.css"
 
 
 function AlbumList({ artistId, limit, startIndex }) {

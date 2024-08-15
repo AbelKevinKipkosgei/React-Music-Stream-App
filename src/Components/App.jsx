@@ -8,7 +8,7 @@ import NavBar from "./NavBar";
 function App() {
   return (
     <Router>
-      <div className="app">
+      <div className="app-container">
         <h1>My App</h1>
         <NavBar />
         <Routes>
