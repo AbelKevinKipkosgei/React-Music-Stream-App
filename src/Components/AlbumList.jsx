@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
 import AlbumCard from "./AlbumCard";
-import PropTypes from "prop-types"
-import "./AlbumList.css"
-
+import PropTypes from "prop-types";
+import "./AlbumList.css";
 
 function AlbumList({ artistId, limit, startIndex }) {
   AlbumList.propTypes = {
-    artistId: PropTypes.string.isRequired,  // This ensures artistId is passed as a string and is required
-    limit: PropTypes.number.isRequired,     // This ensures limit is passed as a number and is required
-    startIndex: PropTypes.number.isRequired // This ensures startIndex is passed as a number and is required
+    artistId: PropTypes.string.isRequired, // This ensures artistId is passed as a string and is required
+    limit: PropTypes.number.isRequired, // This ensures limit is passed as a number and is required
+    startIndex: PropTypes.number.isRequired, // This ensures startIndex is passed as a number and is required
   };
   const [albums, setAlbums] = useState([]);
   // Constants for client ID and client secret
@@ -59,11 +58,17 @@ function AlbumList({ artistId, limit, startIndex }) {
       }
     };
     fetchAlbums();
-  }, [artistId, limit, startIndex])
+  }, [artistId, limit, startIndex]);
   return (
     <div className="album-list">
       {albums.map((album) => (
-        <AlbumCard key={album.id} albumImage={album.images[1]?.url} albumName={album.name} albumArtistName={album.artists[0]?.name} albumId={album.id} />
+        <AlbumCard
+          key={album.id}
+          albumImage={album.images[1]?.url}
+          albumName={album.name}
+          albumArtistName={album.artists[0]?.name}
+          albumId={album.id}
+        />
       ))}
     </div>
   );
