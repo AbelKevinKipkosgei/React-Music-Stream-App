@@ -7,6 +7,11 @@ import "./App.css";
 import NavBar from "./NavBar";
 
 function App() {
+  // const artistInfo = [
+  //   { empireId: "7EjxNoVjXo7gL73F2EdXVA", limit: 6, starIndex: 0 },
+  //   { usherId: "7dGJo4pcD2V6oG8kP0tJRR", limit: 8, startIndex: 0 },
+  //   {},
+  // ];
   return (
     <Router>
       <div className="app-container">
