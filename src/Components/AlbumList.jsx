@@ -62,8 +62,8 @@ function AlbumList({ artistId, limit, startIndex }) {
   }, [artistId, limit, startIndex])
   return (
     <div className="album-list">
-      {albums.map((album, index) => (
-        <AlbumCard key={index} albumImage={album.images[1]?.url} albumName={album.name} albumArtistName={album.artists[0]?.name} />
+      {albums.map((album) => (
+        <AlbumCard key={album.id} albumImage={album.images[1]?.url} albumName={album.name} albumArtistName={album.artists[0]?.name} albumId={album.id} />
       ))}
     </div>
   );
