@@ -4,6 +4,7 @@ function Albums() {
   return (
     <div className="album-container">
       <AlbumList artistId="7EjxNoVjXo7gL73F2EdXVA" limit={6} startIndex={0} />
+      <AlbumList artistId="7dGJo4pcD2V6oG8kP0tJRR" limit={8} startIndex={0} />
     </div>
   );
 }

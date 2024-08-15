@@ -1,6 +1,15 @@
 import { useState, useEffect } from "react";
+import AlbumCard from "./AlbumCard";
+import PropTypes from "prop-types"
+
 
 function AlbumList({ artistId, limit, startIndex }) {
+  AlbumList.propTypes = {
+    artistId: PropTypes.string.isRequired,  // This ensures artistId is passed as a string and is required
+    limit: PropTypes.number.isRequired,     // This ensures limit is passed as a number and is required
+    startIndex: PropTypes.number.isRequired // This ensures startIndex is passed as a number and is required
+  };
+  const [albums, setAlbums] = useState([]);
   // Constants for client ID and client secret
   const clientId = "d4fdc1c5f8674fe3ad5b649018201b24";
   const clientSecret = "79cbccaaf4cf433c9b8c0c3a39179d65";
@@ -30,7 +39,32 @@ function AlbumList({ artistId, limit, startIndex }) {
     }
   };
 
-
-  return <div className="album-list"></div>;
+  useEffect(() => {
+    const fetchAlbums = async () => {
+      const accessToken = await getAccessToken();
+      const url = `https://api.spotify.com/v1/artists/${artistId}/albums?include_groups=album&limit=${limit}&offset=${startIndex}`;
+      try {
+        const response = await fetch(url, {
+          method: "GET",
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+          },
+        });
+        const data = await response.json();
+        console.log("Album Data:", data);
+        setAlbums(data.items);
+      } catch (error) {
+        console.error("Error fetching albums:", error);
+      }
+    };
+    fetchAlbums();
+  }, [artistId, limit, startIndex])
+  return (
+    <div className="album-list">
+      {albums.map((album, index) => (
+        <AlbumCard key={index} albumImage={album.images[1]?.url} albumName={album.name} albumArtistName={album.artists[0]?.name} />
+      ))}
+    </div>
+  );
 }
 export default AlbumList;
