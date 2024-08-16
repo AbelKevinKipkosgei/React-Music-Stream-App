@@ -8,13 +8,11 @@
   text-align: center;
   font-family: Arial, sans-serif;
   position: relative;
-  overflow: hidden;
   cursor: pointer;
 }
 
 .album-card:hover {
-  transform: translateY(-10px);
-  transform: scale(1.05);
+  transform: translateY(-10px) scale(1.05);
 }
 
 .album-cover {
@@ -24,12 +22,12 @@
 }
 
 .album-info {
-  padding: 5px;
+  padding: 10px; /* Added padding for better spacing */
 }
 
 .album-title {
   font-size: 1em;
-  margin: 5px 0 5px;
+  margin: 5px 0;
   color: #333;
 }
 
@@ -39,17 +37,26 @@
   margin-bottom: 5px;
 }
 
-.play-pause-btn {
-  padding: 10px 20px;
-  background-color: #ff5722;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-  transition: background-color 0.3s;
+.play-pause-button {
+  position: absolute;
+  top: 50%; /* Place it just above the bottom edge of the card */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 2; /* Ensure it's above other elements */
+  display: none; /* Hidden by default */
+  background-color: rgba(
+    247,
+    247,
+    247,
+    0.747
+  ); /* Semi-transparent background color */
+  border-radius: 50%; /* Round shape */
+  padding: 10px; /* Space around the icon */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
 }
 
-.play-pause-btn:hover {
-  background-color: #e64a19;
+.album-card:hover .play-pause-button {
+  display: flex; /* Ensure it is visible on hover */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
 }
