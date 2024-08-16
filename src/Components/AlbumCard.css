@@ -7,6 +7,9 @@
   transition: transform 0.3s;
   text-align: center;
   font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .album-card:hover {
