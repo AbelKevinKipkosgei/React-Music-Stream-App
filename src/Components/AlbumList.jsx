@@ -1,21 +1,24 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import AlbumCard from "./AlbumCard";
 import PropTypes from "prop-types";
 import "./AlbumList.css";
 
 function AlbumList({ artistId, limit, startIndex, albumsInfo }) {
   AlbumList.propTypes = {
-    artistId: PropTypes.string.isRequired, // This ensures artistId is passed as a string and is required
-    limit: PropTypes.number.isRequired, // This ensures limit is passed as a number and is required
+    artistId: PropTypes.string.isRequired,
+    limit: PropTypes.number.isRequired,
     albumsInfo: PropTypes.array.isRequired,
-    startIndex: PropTypes.number.isRequired, // This ensures startIndex is passed as a number and is required
+    startIndex: PropTypes.number.isRequired,
   };
+
   const [albums, setAlbums] = useState([]);
-  // Constants for client ID and client secret
+  const [playingAlbumId, setPlayingAlbumId] = useState(null);
+  const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
+  const audioRef = useRef(new Audio());
+
   const clientId = "d4fdc1c5f8674fe3ad5b649018201b24";
   const clientSecret = "79cbccaaf4cf433c9b8c0c3a39179d65";
 
-  // Function to fetch access token using client credentials flow
   const getAccessToken = async () => {
     const url = "https://accounts.spotify.com/api/token";
     const body = `grant_type=client_credentials&client_id=${clientId}&client_secret=${clientSecret}`;
@@ -52,7 +55,7 @@ function AlbumList({ artistId, limit, startIndex, albumsInfo }) {
           },
         });
         const data = await response.json();
-        console.log("Album Data:", data);
+        console.log("Album Data: ", data);
         setAlbums(data.items);
       } catch (error) {
         console.error("Error fetching albums:", error);
@@ -61,19 +64,62 @@ function AlbumList({ artistId, limit, startIndex, albumsInfo }) {
     fetchAlbums();
   }, [artistId, limit, startIndex]);
 
+  const handlePlayPause = (albumId) => {
+    if (playingAlbumId === albumId) {
+      // Pause the currently playing album
+      setPlayingAlbumId(null);
+      audioRef.current.pause();
+      audioRef.current.src = ""; // Clear the source
+    } else {
+      // Play the new album
+      if (playingAlbumId) {
+        audioRef.current.pause();
+        audioRef.current.src = ""; // Clear the source
+      }
+      setPlayingAlbumId(albumId);
+      setCurrentTrackIndex(0); // Reset track index when starting a new album
+    }
+  };
+
+  useEffect(() => {
+    const album = albumsInfo.find((album) => album.id === playingAlbumId);
+    if (album) {
+      const audio = audioRef.current;
+      audio.src = album.trackfiles[currentTrackIndex];
+      audio.play().catch((error) => {
+        console.error("Error playing audio:", error);
+      });
+
+      audio.onended = () => {
+        const nextTrackIndex =
+          (currentTrackIndex + 1) % album.trackfiles.length;
+        setCurrentTrackIndex(nextTrackIndex);
+      };
+
+      return () => {
+        audio.pause();
+        audio.src = ""; // Clear the source to prevent issues
+      };
+    }
+  }, [playingAlbumId, currentTrackIndex, albumsInfo]);
+
   return (
     <div className="album-list">
       {albums.map((album) => (
         <AlbumCard
           key={album.id}
+          albumId={album.id}
           albumImage={album.images[1]?.url}
           albumName={album.name}
           albumArtistName={album.artists[0]?.name}
-          albumId={album.id}
           albumsInfo={albumsInfo}
+          isPlaying={playingAlbumId === album.id}
+          onPlayPause={() => handlePlayPause(album.id)}
+          currentTrackIndex={currentTrackIndex}
         />
       ))}
     </div>
   );
 }
+
 export default AlbumList;

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import "./AlbumCard.css";
-import { useState, useRef, useEffect } from "react";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function AlbumCard({
@@ -9,6 +9,9 @@ function AlbumCard({
   albumName,
   albumArtistName,
   albumsInfo,
+  isPlaying,
+  onPlayPause,
+  currentTrackIndex,
 }) {
   AlbumCard.propTypes = {
     albumId: PropTypes.string.isRequired,
@@ -16,49 +19,43 @@ function AlbumCard({
     albumName: PropTypes.string.isRequired,
     albumArtistName: PropTypes.string.isRequired,
     albumsInfo: PropTypes.array.isRequired,
+    isPlaying: PropTypes.bool.isRequired,
+    onPlayPause: PropTypes.func.isRequired,
+    currentTrackIndex: PropTypes.number.isRequired,
   };
 
   const navigate = useNavigate();
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
-  const audioRef = useRef(new Audio());
-
-  //Find the album based on the albumId
   const album = albumsInfo.find((album) => album.id === albumId);
 
   useEffect(() => {
     if (isPlaying && album) {
-      const audio = audioRef.current;
-      audio.src = album.trackfiles[currentTrackIndex];
-      audio.play();
+      // Update the track to play
+      const audio = new Audio(album.trackfiles[currentTrackIndex]);
+      audio.play().catch((error) => {
+        console.error("Error playing audio:", error);
+      });
 
-      audio.onended = () => {
-        const nextTrackIndex =
-          (currentTrackIndex + 1) % album.trackfiles.length;
-        setCurrentTrackIndex(nextTrackIndex);
-      };
       return () => {
         audio.pause();
         audio.src = "";
       };
-    } else {
-      audioRef.current.pause();
     }
   }, [isPlaying, currentTrackIndex, album]);
-
-  const handlePlayPauseClick = (e) => {
-    e.stopPropagation(); // Prevent triggering the navigation on card click
-    setIsPlaying(!isPlaying);
-    // Handle play/pause functionality here
-  };
 
   const handleClick = () => {
     navigate(`/Albums/${albumId}`);
   };
+
   return (
     <div className="album-card" onClick={handleClick}>
       <img src={albumImage} alt={albumName} className="album-cover" />
-      <div className="play-pause-button" onClick={handlePlayPauseClick}>
+      <div
+        className="play-pause-button"
+        onClick={(e) => {
+          e.stopPropagation();
+          onPlayPause();
+        }}
+      >
         <button>
           <img
             src={isPlaying ? "/pause-button.png" : "/play-button.png"}
@@ -74,4 +71,5 @@ function AlbumCard({
     </div>
   );
 }
+
 export default AlbumCard;
