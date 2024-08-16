@@ -39,7 +39,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Albums" element={<Albums />} />
+          <Route path="/Albums" element={<Albums albumsInfo={albumsInfo} />} />
           <Route path="/Artists" element={<Artists />} />
           <Route path="/Albums/:id" element={<AlbumInfo />} />
         </Routes>

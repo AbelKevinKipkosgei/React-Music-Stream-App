@@ -3,10 +3,11 @@ import AlbumCard from "./AlbumCard";
 import PropTypes from "prop-types";
 import "./AlbumList.css";
 
-function AlbumList({ artistId, limit, startIndex }) {
+function AlbumList({ artistId, limit, startIndex, albumsInfo }) {
   AlbumList.propTypes = {
     artistId: PropTypes.string.isRequired, // This ensures artistId is passed as a string and is required
     limit: PropTypes.number.isRequired, // This ensures limit is passed as a number and is required
+    albumsInfo: PropTypes.array.isRequired,
     startIndex: PropTypes.number.isRequired, // This ensures startIndex is passed as a number and is required
   };
   const [albums, setAlbums] = useState([]);
@@ -69,6 +70,7 @@ function AlbumList({ artistId, limit, startIndex }) {
           albumName={album.name}
           albumArtistName={album.artists[0]?.name}
           albumId={album.id}
+          albumsInfo={albumsInfo}
         />
       ))}
     </div>
