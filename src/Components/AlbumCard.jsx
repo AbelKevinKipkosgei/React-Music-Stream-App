@@ -47,7 +47,10 @@ function AlbumCard({
   };
 
   return (
-    <div className="album-card" onClick={handleClick}>
+    <div
+      className={`album-card ${isPlaying ? "playing" : ""}`}
+      onClick={handleClick}
+    >
       <img src={albumImage} alt={albumName} className="album-cover" />
       <div
         className="play-pause-button"

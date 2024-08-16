@@ -55,13 +55,20 @@
   background: none;
   border: none;
   padding: 0;
+  background: transparent;
   cursor: pointer;
   border-radius: 50%;
 }
 
 .play-pause-button img {
+  display: block;
   width: 30px;
   height: 30px;
+}
+
+.album-card:hover .play-pause-button,
+.album-card.playing .play-pause-button {
+  display: block; /* Show on hover or if currently playing */
 }
 
 .album-card:hover > .play-pause-button {
