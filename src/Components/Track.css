@@ -1,0 +1,39 @@
+.trackname {
+  background-color: #b6b6b6; /* Light background for the card */
+  padding: 2px; /* Add some padding */
+  margin: 10px 0; /* Add some margin between tracks */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+  position: relative; /* To position the play button */
+}
+
+.trackname-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between track name and play button */
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.trackname-layout:hover {
+  background-color: #ececec; /* Slightly darker background on hover */
+  border-radius: 10px;
+}
+
+.play-button {
+  visibility: hidden; /* Hide play button by default */
+  margin-left: 10px; /* Add some space from the track name */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.trackname:hover .play-button {
+  visibility: visible; /* Show play button on hover */
+  transition: visibility 0.3s ease; /* Smooth transition for visibility */
+}
+
+.play-button:hover {
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
