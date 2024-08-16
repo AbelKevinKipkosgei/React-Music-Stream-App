@@ -39,24 +39,33 @@
 
 .play-pause-button {
   position: absolute;
-  top: 50%; /* Place it just above the bottom edge of the card */
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%); /* Center horizontally */
-  z-index: 2; /* Ensure it's above other elements */
+  transform: translate(-50%, -50%);
+  z-index: 2;
   display: none; /* Hidden by default */
-  background-color: rgba(
-    247,
-    247,
-    247,
-    0.747
-  ); /* Semi-transparent background color */
-  border-radius: 50%; /* Round shape */
-  padding: 10px; /* Space around the icon */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+  border-radius: 50%; /* Make the button round */
+  padding: 15px; /* Adjust padding to make it larger */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+  cursor: pointer; /* Pointer cursor on hover */
 }
 
-.album-card:hover .play-pause-button {
-  display: flex; /* Ensure it is visible on hover */
+.play-pause-button button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.play-pause-button img {
+  width: 30px;
+  height: 30px;
+}
+
+.album-card:hover > .play-pause-button {
+  display: flex !important; /* Show the button on hover */
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
 }

@@ -10,6 +10,7 @@ function AlbumCard({ albumId, albumImage, albumName, albumArtistName }) {
     albumName: PropTypes.string.isRequired,
     albumArtistName: PropTypes.string.isRequired,
   };
+
   const navigate = useNavigate();
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -26,15 +27,13 @@ function AlbumCard({ albumId, albumImage, albumName, albumArtistName }) {
     <div className="album-card" onClick={handleClick}>
       <img src={albumImage} alt={albumName} className="album-cover" />
       <div className="play-pause-button" onClick={handlePlayPauseClick}>
-        <img
-          src={
-            isPlaying
-              ? "../../public/pause-button.png"
-              : "../../public/play-button.png"
-          }
-          alt={isPlaying ? "Pause" : "Play"}
-          width="30px"
-        />
+        <button>
+          <img
+            src={isPlaying ? "../../pause-button.png" : "../../play-button.png"}
+            alt={isPlaying ? "Pause" : "Play"}
+            width="30px"
+          />
+        </button>
       </div>
       <div className="album-info">
         <p className="album-title">{albumName}</p>

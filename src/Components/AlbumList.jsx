@@ -59,6 +59,7 @@ function AlbumList({ artistId, limit, startIndex }) {
     };
     fetchAlbums();
   }, [artistId, limit, startIndex]);
+
   return (
     <div className="album-list">
       {albums.map((album) => (

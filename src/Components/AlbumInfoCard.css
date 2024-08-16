@@ -10,15 +10,15 @@
 
 .album-info-card {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
-  margin-bottom: 20px; /* Space between album info and track list */
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .album-image {
   width: 200px;
   height: 200px;
-  border-radius: 8px; /* Rounded corners for the album image */
-  margin-right: 20px; /* Space between image and details */
+  border-radius: 8px;
+  margin-right: 20px;
 }
 
 .album-description {
@@ -29,19 +29,19 @@
   font-size: 28px;
   font-weight: 600;
   color: #666;
-  margin: 0 0 10px 0; /* Margin for the title */
+  margin: 0 0 10px 0;
 }
 
 .album-description p {
   font-size: 20px;
   font-weight: 400;
-  color: #666; /* Lighter color for the artist name */
-  margin: 0; /* Remove margin */
+  color: #666;
+  margin: 0;
 }
 
 .track-lists {
-  margin-top: 20px; /* Space between the album info and track list */
-  padding-left: 0; /* Remove any left padding */
+  margin-top: 20px;
+  padding-left: 0;
 }
 
 .trackname {
@@ -59,8 +59,8 @@
   font-size: 16px;
   font-weight: 500;
   margin: 0; /* Remove margin */
-  flex: 1; /* Take up remaining space */
-  text-align: left; /* Align text to the left */
-  display: flex; /* Use Flexbox for alignment */
-  align-items: center; /* Vertically center text */
+  flex: 1;
+  text-align: left;
+  display: flex;
+  align-items: center;
 }

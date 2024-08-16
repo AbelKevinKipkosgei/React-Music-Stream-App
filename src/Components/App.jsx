@@ -12,6 +12,26 @@ function App() {
   //   { usherId: "7dGJo4pcD2V6oG8kP0tJRR", limit: 8, startIndex: 0 },
   //   {},
   // ];
+  const albumsInfo = [
+    {
+      id: "1JY8uoxY8dLSPwVj2UqLiP",
+      name: "Empire: Original Soundtrack, Season 3",
+      trackfiles: [
+        "/EmpireOriginalSoundtrackSeason3Tracks/Empire Cast - Need Freedom (Official Video) ft. Jussie Smollett.mp3",
+        "/EmpireOriginalSoundtrackSeason3Tracks/Empire Cast, Mariah Carey, Jussie Smollett - Infamous (Video).mp3",
+        "/EmpireOriginalSoundtrackSeason3Tracks/Empire Cast - Aces High (Official Video) ft. Serayah.mp3",
+      ],
+    },
+    {
+      id: "28L0OF7HJKdFUP5VZgdiz5",
+      name: "Empire: The Complete Season 2",
+      trackfiles: [
+        "/EmpireTheCompleteSeason2Tracks/Empire Cast - Born To Love U (feat. Jussie Smollett) Official Audio.mp3",
+        "/EmpireTheCompleteSeason2Tracks/Born to Lose (feat. Sean Cross, Swizz Beatz, Jussie Smollett, and Yazz) Audio.mp3",
+        "/EmpireTheCompleteSeason2Tracks/Empire Cast - Hourglass (feat. V. Bozeman) Audio.mp3",
+      ],
+    },
+  ];
   return (
     <Router>
       <div className="app-container">
