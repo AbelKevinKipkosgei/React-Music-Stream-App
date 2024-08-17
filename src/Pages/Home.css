@@ -1,11 +1,38 @@
 .home {
-  text-align: center;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  align-items: center; /* Center the cards horizontally */
 }
 
-.home img {
-  max-width: 100%;
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border: 2px solid #c5c5c5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #3d3d3d;
+  max-width: 1200px; /* Set max width for the cards */
+  width: 100%; /* Make sure the cards take full width up to the max width */
+}
+
+.card img {
+  width: 250px; /* Increase image width */
   height: auto;
-  display: block;
-  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.card:nth-of-type(odd) {
+  flex-direction: row;
+}
+
+.card:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.card article {
+  flex: 1;
 }
