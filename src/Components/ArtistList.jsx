@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import ArtistCard from "./ArtistCard";
+import "./ArtistList.css";
 
 function ArtistList() {
   const [artists, setArtists] = useState([]);

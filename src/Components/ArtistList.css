@@ -1,0 +1,14 @@
+.artist-list {
+  background-color: rgb(71, 71, 71);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .artist-list {
+    grid-template-columns: 1fr;
+  }
+}
