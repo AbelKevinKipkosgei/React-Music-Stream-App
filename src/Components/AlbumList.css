@@ -1,5 +1,5 @@
 .album-list {
-  background-color: rgb(165, 165, 165);
+  background-color: #242424;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;

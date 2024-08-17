@@ -1,5 +1,5 @@
 .artist-list {
-  background-color: rgb(71, 71, 71);
+  background-color: #242424;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
