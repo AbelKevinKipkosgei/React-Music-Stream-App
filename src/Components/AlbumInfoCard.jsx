@@ -23,10 +23,46 @@ function AlbumInfoCard({ albumInfo }) {
         "/EmpireOriginalSoundtrackSeason3Tracks/Empire Cast - Aces High (Official Video) ft. Serayah.mp3",
     },
     {
+      albumId: "1JY8uoxY8dLSPwVj2UqLiP",
+      trackId: "0LpRWY4sAluQKGUNZvDWM2",
+      trackSrc:
+        "/EmpireOriginalSoundtrackSeason3Tracks/Empire Cast - Over Everything (Audio) ft. Jussie Smollett, Yazz.mp3",
+    },
+    {
+      albumId: "1JY8uoxY8dLSPwVj2UqLiP",
+      trackId: "3Xrms5VrC4TaDFskr7BMTd",
+      trackSrc:
+        "/EmpireOriginalSoundtrackSeason3Tracks/Empire Cast - Mama (Stripped Down Version) ft. Jussie Smollett (Official Video).mp3",
+    },
+    {
       albumId: "28L0OF7HJKdFUP5VZgdiz5",
       trackId: "66M603Q0gXv8qaM3IFiPrA",
       trackSrc:
         "/EmpireTheCompleteSeason2Tracks/Empire Cast - Born To Love U (feat. Jussie Smollett) Official Audio.mp3",
+    },
+    {
+      albumId: "28L0OF7HJKdFUP5VZgdiz5",
+      trackId: "2Io2K6df5l9okpBuFWd9Vv",
+      trackSrc:
+        "/public/EmpireTheCompleteSeason2Tracks/Born to Lose (feat. Sean Cross, Swizz Beatz, Jussie Smollett, and Yazz) Audio.mp3",
+    },
+    {
+      albumId: "28L0OF7HJKdFUP5VZgdiz5",
+      trackId: "1L8f7tIobpFjs1m6vBXyAF",
+      trackSrc:
+        "/EmpireTheCompleteSeason2Tracks/Empire Cast - Hourglass (feat. V. Bozeman) Audio.mp3",
+    },
+    {
+      albumId: "28L0OF7HJKdFUP5VZgdiz5",
+      trackId: "4Q2pE83LzAsxzdPFQhtEvI",
+      trackSrc:
+        "/EmpireTheCompleteSeason2Tracks/Empire Cast - Get No Better (2.0) (feat. Serayah) (Audio).mp3",
+    },
+    {
+      albumId: "28L0OF7HJKdFUP5VZgdiz5",
+      trackId: "6HPFrapXVNAofWKdIuxvKF",
+      trackSrc:
+        "/EmpireTheCompleteSeason2Tracks/Empire Cast - Snitch Bitch ft. Terrence Howard and Petey Pablo (Official Audio).mp3",
     },
   ];
   return (
