@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import ArtistCard from "./ArtistCard";
 
 function ArtistList() {
   const [artists, setArtists] = useState([]);
@@ -53,6 +54,17 @@ function ArtistList() {
     };
     fetchArtists();
   }, []);
-  return <div className="artist-list"></div>;
+  return (
+    <div className="artist-list">
+      {artists.map((artist) => (
+        <ArtistCard
+          key={artist.id}
+          artistName={artist.name}
+          artistImage={artist.images[2].url}
+          artistType={artist.type} //An array
+        />
+      ))}
+    </div>
+  );
 }
 export default ArtistList;
