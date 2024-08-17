@@ -22,6 +22,12 @@ function AlbumInfoCard({ albumInfo }) {
       trackSrc:
         "/EmpireOriginalSoundtrackSeason3Tracks/Empire Cast - Aces High (Official Video) ft. Serayah.mp3",
     },
+    {
+      albumId: "28L0OF7HJKdFUP5VZgdiz5",
+      trackId: "66M603Q0gXv8qaM3IFiPrA",
+      trackSrc:
+        "/EmpireTheCompleteSeason2Tracks/Empire Cast - Born To Love U (feat. Jussie Smollett) Official Audio.mp3",
+    },
   ];
   return (
     <div className="one-album-data">

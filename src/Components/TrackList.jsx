@@ -21,7 +21,6 @@ function TrackList({ albumTracks, tracksInfo }) {
         audioRef.current = new Audio(selectedTrack.trackSrc);
         try {
           await audioRef.current.play();
-          console.log("Playing track:", selectedTrack.trackSrc); // Log to verify audio is playing
           setPlayingTrackIndex(trackIndex);
         } catch (error) {
           console.error("Error playing the track:", error);
@@ -50,7 +49,13 @@ function TrackList({ albumTracks, tracksInfo }) {
     if (audio) {
       audio.onended = () => {
         const nextTrackIndex = (playingTrackIndex + 1) % albumTracks.length;
-        playTrack(nextTrackIndex); // Automatically play the next track
+
+        if (nextTrackIndex === 0) {
+          // End of album
+          setPlayingTrackIndex(null);
+        } else {
+          playTrack(nextTrackIndex); // Automatically play the next track
+        }
       };
 
       return () => {
