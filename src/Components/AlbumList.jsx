@@ -16,9 +16,11 @@ function AlbumList({ artistId, limit, startIndex, albumsInfo }) {
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0);
   const audioRef = useRef(new Audio());
 
+  //Client credentials
   const clientId = "d4fdc1c5f8674fe3ad5b649018201b24";
   const clientSecret = "79cbccaaf4cf433c9b8c0c3a39179d65";
 
+  //Fetching access token
   const getAccessToken = async () => {
     const url = "https://accounts.spotify.com/api/token";
     const body = `grant_type=client_credentials&client_id=${clientId}&client_secret=${clientSecret}`;

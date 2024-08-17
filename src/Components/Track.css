@@ -1,5 +1,5 @@
 .trackname {
-  background-color: #b6b6b6; /* Light background for the card */
+  background-color: #b6b6b6; /* Light background for the track */
   padding: 2px; /* Add some padding */
   margin: 10px 0; /* Add some margin between tracks */
   border-radius: 8px; /* Rounded corners */
@@ -23,17 +23,19 @@
 }
 
 .play-button {
+  background-color: #b6b6b6;
+  border-radius: 5px;
   visibility: hidden; /* Hide play button by default */
   margin-left: 10px; /* Add some space from the track name */
   cursor: pointer; /* Change cursor to pointer on hover */
+  transition: visibility 0.3s ease, transform 0.3s ease; /* Smooth transitions */
 }
 
-.trackname:hover .play-button {
-  visibility: visible; /* Show play button on hover */
-  transition: visibility 0.3s ease; /* Smooth transition for visibility */
+.trackname:hover .play-button,
+.trackname.playing .play-button {
+  visibility: visible; /* Show play button on hover or if track is playing */
 }
 
 .play-button:hover {
   transform: scale(1.1); /* Slightly enlarge the button on hover */
-  transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
