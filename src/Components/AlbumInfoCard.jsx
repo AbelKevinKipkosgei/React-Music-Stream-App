@@ -64,6 +64,36 @@ function AlbumInfoCard({ albumInfo }) {
       trackSrc:
         "/EmpireTheCompleteSeason2Tracks/Empire Cast - Snitch Bitch ft. Terrence Howard and Petey Pablo (Official Audio).mp3",
     },
+    {
+      albumId: "5F63FnyDVZcFljjvVRdPd8",
+      trackId: "3K21eqPSN8Fb4SxEnKfEOo",
+      trackSrc:
+        "/EmpireOriginalSoundtrackSeason2Volume2(Deluxe)/Empire Cast - Freedom (Audio) ft. Jussie Smollett.mp3",
+    },
+    {
+      albumId: "5F63FnyDVZcFljjvVRdPd8",
+      trackId: "75nhw5YxdMeEE9cj9AjyHR",
+      trackSrc:
+        "/EmpireOriginalSoundtrackSeason2Volume2(Deluxe)/Empire Cast - Crown (Audio) ft. Jamila Velazquez, Raquel Castro, Yani Marin.mp3",
+    },
+    {
+      albumId: "5F63FnyDVZcFljjvVRdPd8",
+      trackId: "4GgNPT0DpAAxlLKQ5yGI71",
+      trackSrc:
+        "/EmpireOriginalSoundtrackSeason2Volume2(Deluxe)/Empire Cast - Look But Dont Touch (Audio) ft. Serayah.mp3",
+    },
+    {
+      albumId: "5F63FnyDVZcFljjvVRdPd8",
+      trackId: "6zuizmUpT8hlgdK3wzFdsl",
+      trackSrc:
+        "/EmpireOriginalSoundtrackSeason2Volume2(Deluxe)/Empire Cast - Good People (Audio) ft. Jussie Smollett, Yazz.mp3",
+    },
+    {
+      albumId: "5F63FnyDVZcFljjvVRdPd8",
+      trackId: "4kLStCq9NefHSGXsyXu0Bk",
+      trackSrc:
+        "/EmpireOriginalSoundtrackSeason2Volume2(Deluxe)/Empire Cast - Like My Daddy (Official Audio) ft. Jussie Smollett.mp3",
+    },
   ];
   return (
     <div className="one-album-data">
