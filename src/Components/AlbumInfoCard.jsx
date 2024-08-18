@@ -288,6 +288,60 @@ function AlbumInfoCard({ albumInfo }) {
       trackId: "10WTBqxaEVRDwbIaZB1jpr",
       trackSrc: "/TheEminemShow(ExpandedEdition)/Square Dance.mp3",
     },
+    {
+      albumId: "3MKvhQoFSrR2PrxXXBHe9B",
+      trackId: "1sv41rYgHhPWdyzwk5K9zy",
+      trackSrc: "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Alfred (Intro).mp3",
+    },
+    {
+      albumId: "3MKvhQoFSrR2PrxXXBHe9B",
+      trackId: "50le2HSqQAIqB4BGD4cE9e",
+      trackSrc:
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Black Magic (feat. Skylar Grey) Official Audio.mp3",
+    },
+    {
+      albumId: "3MKvhQoFSrR2PrxXXBHe9B",
+      trackId: "0uAkm1iQLrzweZ4U1iXy6w",
+      trackSrc:
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Alfreds Theme Official Audio.mp3",
+    },
+    {
+      albumId: "3MKvhQoFSrR2PrxXXBHe9B",
+      trackId: "1cEUi8QulMj1xgrPwwGC2p",
+      trackSrc:
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Tone Deaf Official Audio.mp3",
+    },
+    {
+      albumId: "3MKvhQoFSrR2PrxXXBHe9B",
+      trackId: "08ir631EiCA7xIms7JDp15",
+      trackSrc:
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Book of Rhymes (feat. DJ Premier) Official Audio.mp3",
+    },
+    {
+      albumId: "0U6ldwLBEMkwgfQRY4V6D2",
+      trackId: "7CcoUAtUcYhUfBsmtn0ajO",
+      trackSrc: "/Revival/Eminem - Walk On Water (Audio) ft. Beyoncé.mp3",
+    },
+    {
+      albumId: "0U6ldwLBEMkwgfQRY4V6D2",
+      trackId: "4iTyf5pLZMOR8YrEZgSopo",
+      trackSrc: "/Revival/Believe.mp3",
+    },
+    {
+      albumId: "0U6ldwLBEMkwgfQRY4V6D2",
+      trackId: "13aKdwvdGjuZDv2OOKyvs7",
+      trackSrc: "/Revival/Chloraseptic.mp3",
+    },
+    {
+      albumId: "0U6ldwLBEMkwgfQRY4V6D2",
+      trackId: "6IvespQWGW4USXwexlVKDm",
+      trackSrc: "/public/Revival/Eminem - Untouchable (Audio).mp3",
+    },
+    {
+      albumId: "0U6ldwLBEMkwgfQRY4V6D2",
+      trackId: "1cS0TgbR263ey9jn0MwD2s",
+      trackSrc: "/Revival/Eminem - River (Audio) ft. Ed Sheeran.mp3",
+    },
   ];
   return (
     <div className="one-album-data">

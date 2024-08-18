@@ -123,6 +123,28 @@ function App() {
         "/TheEminemShow(ExpandedEdition)/Square Dance.mp3",
       ],
     },
+    {
+      id: "3MKvhQoFSrR2PrxXXBHe9B",
+      name: "Music To Be Murdered By - Side B (Deluxe Edition)",
+      trackfiles: [
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Alfred (Intro).mp3",
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Black Magic (feat. Skylar Grey) Official Audio.mp3",
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Alfreds Theme Official Audio.mp3",
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Tone Deaf Official Audio.mp3",
+        "/MusicToBeMurderedBy-SideB(DeluxeEdition)/Book of Rhymes (feat. DJ Premier) Official Audio.mp3",
+      ],
+    },
+    {
+      id: "0U6ldwLBEMkwgfQRY4V6D2",
+      name: "Revival",
+      trackfiles: [
+        "/Revival/Eminem - Walk On Water (Audio) ft. Beyoncé.mp3",
+        "/Revival/Believe.mp3",
+        "/Revival/Chloraseptic.mp3",
+        "/Revival/Eminem - Untouchable (Audio).mp3",
+        "/Revival/Eminem - River (Audio) ft. Ed Sheeran.mp3",
+      ],
+    },
   ];
   return (
     <Router>
