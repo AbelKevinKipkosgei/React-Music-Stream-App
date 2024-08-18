@@ -502,6 +502,110 @@ function AlbumInfoCard({ albumInfo }) {
       trackId: "3eKNhLFP3smSZTsyXFZchJ",
       trackSrc: "/A/Usher x Zaytoven - Birthday (Audio).mp3",
     },
+    {
+      albumId: "4HAuPn3A4uu9n7RYNk1dOz",
+      trackId: "2xXWUv1kpqGwckDDyKJEZC",
+      trackSrc: "/HardIILove/Need U.mp3",
+    },
+    {
+      albumId: "4HAuPn3A4uu9n7RYNk1dOz",
+      trackId: "36YfkagRBn8XI6pKOjbTuV",
+      trackSrc: "/HardIILove/Usher - Missin U (Audio).mp3",
+    },
+    {
+      albumId: "4HAuPn3A4uu9n7RYNk1dOz",
+      trackId: "1CDBn2Lm7E63XKQDsdCq6O",
+      trackSrc: "/HardIILove/Usher - No Limit (Audio) ft. Young Thug.mp3",
+    },
+    {
+      albumId: "4HAuPn3A4uu9n7RYNk1dOz",
+      trackId: "5j2qgdGCcIyrZ906oZlXcA",
+      trackSrc: "/HardIILove/Bump.mp3",
+    },
+    {
+      albumId: "4HAuPn3A4uu9n7RYNk1dOz",
+      trackId: "2zGbEkMYPxlQJQ9VKD5crD",
+      trackSrc: "/HardIILove/Let Me.mp3",
+    },
+    {
+      albumId: "7eyuQZCLG5tdjWpKZbDE8g",
+      trackId: "3SuYBr6fF1dxNdnPEG6Nrq",
+      trackSrc: "/Looking4Myself(ExpandedEdition)/Cant Stop Wont Stop.mp3",
+    },
+    {
+      albumId: "7eyuQZCLG5tdjWpKZbDE8g",
+      trackId: "12eMQUn2GzfsfsQLH53M19",
+      trackSrc:
+        "/Looking4Myself(ExpandedEdition)/Usher - Scream (Official Audio).mp3",
+    },
+    {
+      albumId: "7eyuQZCLG5tdjWpKZbDE8g",
+      trackId: "5pyVqlqThcxI7tPDjHIzPh",
+      trackSrc: "/Looking4Myself(ExpandedEdition)/Climax.mp3",
+    },
+    {
+      albumId: "7eyuQZCLG5tdjWpKZbDE8g",
+      trackId: "49HpSwfC9vUtqXXiVyJytQ",
+      trackSrc: "/Looking4Myself(ExpandedEdition)/I Care For U.mp3",
+    },
+    {
+      albumId: "7eyuQZCLG5tdjWpKZbDE8g",
+      trackId: "6nOXmmEaUNS2M3FGyqOGbI",
+      trackSrc: "/Looking4Myself(ExpandedEdition)/Show Me.mp3",
+    },
+    {
+      albumId: "6bnDvfVdO3LarvcpWEzmeD",
+      trackId: "1zXOibHOM0vtM9TbAqn1w2",
+      trackSrc: "/Versus/Usher - Love em all.mp3",
+    },
+    {
+      albumId: "6bnDvfVdO3LarvcpWEzmeD",
+      trackId: "28AUzRo0nQLESL55WDV0um",
+      trackSrc: "/Versus/Dj Got Us Fallin In Love (HQ).mp3",
+    },
+    {
+      albumId: "6bnDvfVdO3LarvcpWEzmeD",
+      trackId: "0yZGL0kUrh5TFM52bBhjBd",
+      trackSrc: "/Versus/Usher - Hot Tottie (Feat. Jay-Z).mp3",
+    },
+    {
+      albumId: "6bnDvfVdO3LarvcpWEzmeD",
+      trackId: "5MnMWAZreJjGjEkAZlbrE9",
+      trackSrc: "/Versus/Usher - Lay you down.mp3",
+    },
+    {
+      albumId: "6bnDvfVdO3LarvcpWEzmeD",
+      trackId: "7oRGN7v2bRenO5QqnlflyV",
+      trackSrc: "/Versus/Usher - Lingerie.mp3",
+    },
+    {
+      albumId: "6A1F3Fkq5dYeYYNkXflcTX",
+      trackId: "3IfytpNFSJwGXrSJOVhKLV",
+      trackSrc: "/RaymondvRaymond(ExpandedEdition)/Monstar.mp3",
+    },
+    {
+      albumId: "6A1F3Fkq5dYeYYNkXflcTX",
+      trackId: "030OCtLMrljNhp8OWHBWW3",
+      trackSrc:
+        "/RaymondvRaymond(ExpandedEdition)/Hey Daddy (Daddys Home) - Usher (2010).mp3",
+    },
+    {
+      albumId: "6A1F3Fkq5dYeYYNkXflcTX",
+      trackId: "6IUiqtI8tE49sqGbmtrNd8",
+      trackSrc:
+        "/RaymondvRaymond(ExpandedEdition)/There Goes My Baby - Usher.mp3",
+    },
+    {
+      albumId: "6A1F3Fkq5dYeYYNkXflcTX",
+      trackId: "2sdarYql1R0GAdFsdb4LDM",
+      trackSrc:
+        "/RaymondvRaymond(ExpandedEdition)/Usher - Lil Freak (feat. Nicki Minaj) Explicit Version.mp3",
+    },
+    {
+      albumId: "6A1F3Fkq5dYeYYNkXflcTX",
+      trackId: "34PFCxQHHROuFl2OsDCvxH",
+      trackSrc: "/RaymondvRaymond(ExpandedEdition)/She Dont Know.mp3",
+    },
   ];
   return (
     <div className="one-album-data">

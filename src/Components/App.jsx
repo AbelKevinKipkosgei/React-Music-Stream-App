@@ -211,6 +211,50 @@ function App() {
         "/A/Usher x Zaytoven - Birthday (Audio).mp3",
       ],
     },
+    {
+      id: "4HAuPn3A4uu9n7RYNk1dOz",
+      name: "Hard II Love",
+      trackfiles: [
+        "/HardIILove/Need U.mp3",
+        "/HardIILove/Usher - Missin U (Audio).mp3",
+        "/HardIILove/Usher - No Limit (Audio) ft. Young Thug.mp3",
+        "/HardIILove/Bump.mp3",
+        "/HardIILove/Let Me.mp3",
+      ],
+    },
+    {
+      id: "7eyuQZCLG5tdjWpKZbDE8g",
+      name: "Looking 4 Myself (Expanded Edition)",
+      trackfiles: [
+        "/Looking4Myself(ExpandedEdition)/Cant Stop Wont Stop.mp3",
+        "/Looking4Myself(ExpandedEdition)/Usher - Scream (Official Audio).mp3",
+        "/Looking4Myself(ExpandedEdition)/Climax.mp3",
+        "/Looking4Myself(ExpandedEdition)/I Care For U.mp3",
+        "/Looking4Myself(ExpandedEdition)/Show Me.mp3",
+      ],
+    },
+    {
+      id: "6bnDvfVdO3LarvcpWEzmeD",
+      name: "Versus",
+      trackfiles: [
+        "/Versus/Usher - Love em all.mp3",
+        "/Versus/Dj Got Us Fallin In Love (HQ).mp3",
+        "/Versus/Usher - Hot Tottie (Feat. Jay-Z).mp3",
+        "/Versus/Usher - Lay you down.mp3",
+        "/Versus/Usher - Lingerie.mp3",
+      ],
+    },
+    {
+      id: "6A1F3Fkq5dYeYYNkXflcTX",
+      name: "Raymond v Raymond (Expanded Edition)",
+      trackfiles: [
+        "/RaymondvRaymond(ExpandedEdition)/Monstar.mp3",
+        "/RaymondvRaymond(ExpandedEdition)/Hey Daddy (Daddys Home) - Usher (2010).mp3",
+        "/RaymondvRaymond(ExpandedEdition)/There Goes My Baby - Usher.mp3",
+        "/RaymondvRaymond(ExpandedEdition)/Usher - Lil Freak (feat. Nicki Minaj) Explicit Version.mp3",
+        "/RaymondvRaymond(ExpandedEdition)/She Dont Know.mp3",
+      ],
+    },
   ];
   return (
     <Router>
