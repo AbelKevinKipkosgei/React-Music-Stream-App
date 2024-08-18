@@ -8,4 +8,6 @@ Should the user click on the album card, the will be routed to a page which disp
 This allows a user to play track files individually as per their preference.
 At the moment each album contains only the first five tracks.
 More albums and tracks will be added with time.
+Click on the following link to access the site.
+https://agroovewave.netlify.app/
 **ENJOY**
