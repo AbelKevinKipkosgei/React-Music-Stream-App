@@ -120,6 +120,65 @@ function AlbumInfoCard({ albumInfo }) {
       trackId: "2eZ13b4AChKz2eYytbsqd6",
       trackSrc: "/Empire: TheCompleteSeason1/Armani.mp3",
     },
+    {
+      albumId: "65nrMZ7EnJgYKeasDhRXTy",
+      trackId: "0iqY4f4lNp2Bh1rthklY1q",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/Empire Cast - Good Enough.mp3",
+    },
+    {
+      albumId: "65nrMZ7EnJgYKeasDhRXTy",
+      trackId: "2DOykLfhy5XEHxZeb3AaPA",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/V Bozeman - What Is Love.mp3",
+    },
+    {
+      albumId: "65nrMZ7EnJgYKeasDhRXTy",
+      trackId: "1TVvzxDIqb8UxzDG6V8FLB",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/Empire Cast - No Apologies (feat. Jussie Smollett, Yazz) (Lyric).mp3",
+    },
+    {
+      albumId: "65nrMZ7EnJgYKeasDhRXTy",
+      trackId: "3gNVgxCFETeK0PtOSxkk9W",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/Empire Cast - Keep It Movin (feat. Serayah McNeill and Yazz) Audio.mp3",
+    },
+    {
+      albumId: "65nrMZ7EnJgYKeasDhRXTy",
+      trackId: "5GTTck4sucr4ymUJPFxHGo",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/Keep Your Money.mp3",
+    },
+    {
+      albumId: "2lP9LOrnaIlTkfO9iu91rl",
+      trackId: "5kfIE9HCoFfIpXUfDRL6JJ",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire/Empire Cast - Good Enough.mp3",
+    },
+    {
+      albumId: "2lP9LOrnaIlTkfO9iu91rl",
+      trackId: "03OmTPZJGqAWVWw5qarlja",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire/V Bozeman - What Is Love.mp3",
+    },
+    {
+      albumId: "2lP9LOrnaIlTkfO9iu91rl",
+      trackId: "7Bc6X1NBuwQdrcOqCtYnzz",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire/Empire Cast - No Apologies (feat. Jussie Smollett, Yazz) (Lyric).mp3",
+    },
+    {
+      albumId: "2lP9LOrnaIlTkfO9iu91rl",
+      trackId: "0e0oS444SW4J6CofvOjPGS",
+      trackSrc:
+        "/OriginalSoundtrackfromSeason1ofEmpire/Empire Cast - Keep It Movin (feat. Serayah McNeill and Yazz) Audio.mp3",
+    },
+    {
+      albumId: "2lP9LOrnaIlTkfO9iu91rl",
+      trackId: "3hu3c634rzOxC7D33oCWoz",
+      trackSrc: "/OriginalSoundtrackfromSeason1ofEmpire/Walk Out On Me.mp3",
+    },
   ];
   return (
     <div className="one-album-data">

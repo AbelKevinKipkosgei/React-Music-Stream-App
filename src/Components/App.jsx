@@ -57,6 +57,28 @@ function App() {
         "/Empire: TheCompleteSeason1/Armani.mp3",
       ],
     },
+    {
+      id: "65nrMZ7EnJgYKeasDhRXTy",
+      name: "Original Soundtrack from Season 1 of Empire (Deluxe)",
+      trackfiles: [
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/Empire Cast - Good Enough.mp3",
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/V Bozeman - What Is Love.mp3",
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/Empire Cast - No Apologies (feat. Jussie Smollett, Yazz) (Lyric).mp3",
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/Empire Cast - Keep It Movin (feat. Serayah McNeill and Yazz) Audio.mp3",
+        "/OriginalSoundtrackfromSeason1ofEmpire(Deluxe)/Keep Your Money.mp3",
+      ],
+    },
+    {
+      id: "2lP9LOrnaIlTkfO9iu91rl",
+      name: "Original Soundtrack from Season 1 of Empire",
+      trackfiles: [
+        "/OriginalSoundtrackfromSeason1ofEmpire/Empire Cast - Good Enough.mp3",
+        "/OriginalSoundtrackfromSeason1ofEmpire/V Bozeman - What Is Love.mp3",
+        "/OriginalSoundtrackfromSeason1ofEmpire/Empire Cast - No Apologies (feat. Jussie Smollett, Yazz) (Lyric).mp3",
+        "/OriginalSoundtrackfromSeason1ofEmpire/Empire Cast - Keep It Movin (feat. Serayah McNeill and Yazz) Audio.mp3",
+        "/OriginalSoundtrackfromSeason1ofEmpire/Walk Out On Me.mp3",
+      ],
+    },
   ];
   return (
     <Router>
