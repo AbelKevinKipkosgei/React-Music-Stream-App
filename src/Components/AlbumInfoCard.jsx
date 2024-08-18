@@ -179,6 +179,62 @@ function AlbumInfoCard({ albumInfo }) {
       trackId: "3hu3c634rzOxC7D33oCWoz",
       trackSrc: "/OriginalSoundtrackfromSeason1ofEmpire/Walk Out On Me.mp3",
     },
+    {
+      albumId: "3kjHLu1pL7tdY88GFwEkl6",
+      trackId: "55u5QIlEuzCipJBtZPdJio",
+      trackSrc:
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Renaissance Official Audio.mp3",
+    },
+    {
+      albumId: "3kjHLu1pL7tdY88GFwEkl6",
+      trackId: "7I3RalBqE7ZE0RSxgGlGlm",
+      trackSrc:
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Habits (feat. White Gold) Official Audio.mp3",
+    },
+    {
+      albumId: "3kjHLu1pL7tdY88GFwEkl6",
+      trackId: "59151GHN7yr5g9B3bqlGdR",
+      trackSrc:
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Trouble Official Audio.mp3",
+    },
+    {
+      albumId: "3kjHLu1pL7tdY88GFwEkl6",
+      trackId: "77pfjsq0gSZwO8bYVTVROo",
+      trackSrc:
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Brand New Dance Official Audio.mp3",
+    },
+    {
+      albumId: "3kjHLu1pL7tdY88GFwEkl6",
+      trackId: "21LCotDEwR7R8qOnqPVzi9",
+      trackSrc:
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Evil Official Audio.mp3",
+    },
+    {
+      albumId: "5EUgcfO5OWxnniHR3QYFcK",
+      trackId: "4hsYSKz5gFMiO2q0V4L8m8",
+      trackSrc: "/TheMarshallMathersLP2(Expanded Edition)/Bad Guy.mp3",
+    },
+    {
+      albumId: "5EUgcfO5OWxnniHR3QYFcK",
+      trackId: "7tldUICXp9StZFmayDxv1j",
+      trackSrc:
+        "/TheMarshallMathersLP2(Expanded Edition)/Parking Lot (Skit).mp3",
+    },
+    {
+      albumId: "5EUgcfO5OWxnniHR3QYFcK",
+      trackId: "1nB5rEmO17g1MlFEN8KQSd",
+      trackSrc: "/TheMarshallMathersLP2(Expanded Edition)/Rhyme Or Reason.mp3",
+    },
+    {
+      albumId: "5EUgcfO5OWxnniHR3QYFcK",
+      trackId: "7ATSAXVEBlryu2EKOAo0Nh",
+      trackSrc: "/TheMarshallMathersLP2(Expanded Edition)/So Much Better.mp3",
+    },
+    {
+      albumId: "5EUgcfO5OWxnniHR3QYFcK",
+      trackId: "5GEehBTspT5vfv3cGDoaDi",
+      trackSrc: "/TheMarshallMathersLP2(Expanded Edition)/Survival.mp3",
+    },
   ];
   return (
     <div className="one-album-data">

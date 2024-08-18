@@ -79,6 +79,28 @@ function App() {
         "/OriginalSoundtrackfromSeason1ofEmpire/Walk Out On Me.mp3",
       ],
     },
+    {
+      id: "3kjHLu1pL7tdY88GFwEkl6",
+      name: "The Death of Slim Shady (Coup De Grâce)",
+      trackfiles: [
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Renaissance Official Audio.mp3",
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Habits (feat. White Gold) Official Audio.mp3",
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Trouble Official Audio.mp3",
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Brand New Dance Official Audio.mp3",
+        "/TheDeathofSlimShady(CoupDeGrâce)/Eminem - Evil Official Audio.mp3",
+      ],
+    },
+    {
+      id: "5EUgcfO5OWxnniHR3QYFcK",
+      name: "The Marshall Mathers LP2 (Expanded Edition)",
+      trackfiles: [
+        "/TheMarshallMathersLP2(Expanded Edition)/Bad Guy.mp3",
+        "/TheMarshallMathersLP2(Expanded Edition)/Parking Lot (Skit).mp3",
+        "/TheMarshallMathersLP2(Expanded Edition)/Rhyme Or Reason.mp3",
+        "/TheMarshallMathersLP2(Expanded Edition)/So Much Better.mp3",
+        "/TheMarshallMathersLP2(Expanded Edition)/Survival.mp3",
+      ],
+    },
   ];
   return (
     <Router>
