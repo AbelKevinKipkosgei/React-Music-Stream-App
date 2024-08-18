@@ -189,6 +189,28 @@ function App() {
         "/COMINGHOME/USHER - Kissing Strangers (Visualizer).mp3",
       ],
     },
+    {
+      id: "3ideAfrVvWpeZkKB9fOz81",
+      name: "My Way (25th Anniversary Edition)",
+      trackfiles: [
+        "/MyWay(25thAnniversaryEdition)/Usher - You make me wanna.mp3",
+        "/MyWay(25thAnniversaryEdition)/Just Like Me.mp3",
+        "/MyWay(25thAnniversaryEdition)/Usher - Nice Slow (Pitched Radio Edit).mp3",
+        "/MyWay(25thAnniversaryEdition)/Slow Jam.mp3",
+        "/MyWay(25thAnniversaryEdition)/My Way.mp3",
+      ],
+    },
+    {
+      id: "7JZi4kTfYCJcqOzVbKAYh5",
+      name: "A",
+      trackfiles: [
+        "/A/Usher x Zaytoven - Stay At Home (Audio) ft. Future.mp3",
+        "/A/Usher x Zaytoven - ATA (Audio).mp3",
+        "/A/Usher x Zaytoven - Peace Sign (Audio).mp3",
+        "/A/Usher x Zaytoven - You Decide (Audio).mp3",
+        "/A/Usher x Zaytoven - Birthday (Audio).mp3",
+      ],
+    },
   ];
   return (
     <Router>

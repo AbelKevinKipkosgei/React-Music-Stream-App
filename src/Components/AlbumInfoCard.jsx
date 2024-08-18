@@ -451,6 +451,57 @@ function AlbumInfoCard({ albumInfo }) {
       trackId: "5brMixqQiQN4D60xmvrSts",
       trackSrc: "/COMINGHOME/USHER - Kissing Strangers (Visualizer).mp3",
     },
+    {
+      albumId: "3ideAfrVvWpeZkKB9fOz81",
+      trackId: "5AQcMYiXysWVDKAUOPWF4D",
+      trackSrc: "/MyWay(25thAnniversaryEdition)/Usher - You make me wanna.mp3",
+    },
+    {
+      albumId: "3ideAfrVvWpeZkKB9fOz81",
+      trackId: "36RBI9bXwndRyb5qBXa0Xg",
+      trackSrc: "/MyWay(25thAnniversaryEdition)/Just Like Me.mp3",
+    },
+    {
+      albumId: "3ideAfrVvWpeZkKB9fOz81",
+      trackId: "0m1iE0A6zITYrzsWzEmpSR",
+      trackSrc:
+        "/MyWay(25thAnniversaryEdition)/Usher - Nice Slow (Pitched Radio Edit).mp3",
+    },
+    {
+      albumId: "3ideAfrVvWpeZkKB9fOz81",
+      trackId: "5XT3akg9m184DEvgo2zNGX",
+      trackSrc: "/MyWay(25thAnniversaryEdition)/Slow Jam.mp3",
+    },
+    {
+      albumId: "3ideAfrVvWpeZkKB9fOz81",
+      trackId: "79SRuRTczEOhGLJeVbk20X",
+      trackSrc: "/MyWay(25thAnniversaryEdition)/My Way.mp3",
+    },
+    {
+      albumId: "7JZi4kTfYCJcqOzVbKAYh5",
+      trackId: "2BwmbZnTS8RCH8upxgwmsy",
+      trackSrc: "/A/Usher x Zaytoven - Stay At Home (Audio) ft. Future.mp3",
+    },
+    {
+      albumId: "7JZi4kTfYCJcqOzVbKAYh5",
+      trackId: "5qfnQ0gOh7bL41HmMT2hJD",
+      trackSrc: "/A/Usher x Zaytoven - ATA (Audio).mp3",
+    },
+    {
+      albumId: "7JZi4kTfYCJcqOzVbKAYh5",
+      trackId: "3DlGY66fukwF71OYNLylxc",
+      trackSrc: "/A/Usher x Zaytoven - Peace Sign (Audio).mp3",
+    },
+    {
+      albumId: "7JZi4kTfYCJcqOzVbKAYh5",
+      trackId: "43O1LuFW6QIJ20RSV8gC4g",
+      trackSrc: "/A/Usher x Zaytoven - You Decide (Audio).mp3",
+    },
+    {
+      albumId: "7JZi4kTfYCJcqOzVbKAYh5",
+      trackId: "3eKNhLFP3smSZTsyXFZchJ",
+      trackSrc: "/A/Usher x Zaytoven - Birthday (Audio).mp3",
+    },
   ];
   return (
     <div className="one-album-data">
