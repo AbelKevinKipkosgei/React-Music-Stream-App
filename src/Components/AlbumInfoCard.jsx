@@ -342,6 +342,59 @@ function AlbumInfoCard({ albumInfo }) {
       trackId: "1cS0TgbR263ey9jn0MwD2s",
       trackSrc: "/Revival/Eminem - River (Audio) ft. Ed Sheeran.mp3",
     },
+    {
+      albumId: "4otkd9As6YaxxEkIjXPiZ6",
+      trackId: "7ccTcabbJlCJiIqtrSSwBk",
+      trackSrc: "/MusicToBeMurderedBy/Premonition - Intro Official Audio.mp3",
+    },
+    {
+      albumId: "4otkd9As6YaxxEkIjXPiZ6",
+      trackId: "0q2vG0UVuy6ajjcpkQHdZM",
+      trackSrc:
+        "/MusicToBeMurderedBy/Unaccommodating (feat. Young M.A) Official Audio.mp3",
+    },
+    {
+      albumId: "4otkd9As6YaxxEkIjXPiZ6",
+      trackId: "0GQ5bFTVFFKpwNPc7KwQnB",
+      trackSrc:
+        "/MusicToBeMurderedBy/You Gon Learn (feat. Royce Da 59 White Gold) Official Audio.mp3",
+    },
+    {
+      albumId: "4otkd9As6YaxxEkIjXPiZ6",
+      trackId: "4EmunTy7kNBYQivOa8F6b8",
+      trackSrc: "/MusicToBeMurderedBy/Alfred (Interlude).mp3",
+    },
+    {
+      albumId: "4otkd9As6YaxxEkIjXPiZ6",
+      trackId: "0VSzREd1OjEWJ9tXoFHRQH",
+      trackSrc:
+        "/MusicToBeMurderedBy/Those Kinda Nights (feat. Ed Sheeran) Official Audio.mp3",
+    },
+    {
+      albumId: "3HNnxK7NgLXbDoxRZxNWiR",
+      trackId: "2jt2WxXMCD4zjACthkJQVE",
+      trackSrc: "/Kamikaze/The Ringer.mp3",
+    },
+    {
+      albumId: "3HNnxK7NgLXbDoxRZxNWiR",
+      trackId: "2XTquzYQAdT1Hk78bOUwsv",
+      trackSrc: "/Kamikaze/Greatest.mp3",
+    },
+    {
+      albumId: "3HNnxK7NgLXbDoxRZxNWiR",
+      trackId: "60SdxE8apGAxMiRrpbmLY0",
+      trackSrc: "/Kamikaze/Lucky You (Feat. Joyner Lucas) Official Audio.mp3",
+    },
+    {
+      albumId: "3HNnxK7NgLXbDoxRZxNWiR",
+      trackId: "0Uv5Kp8sEnriJjkX4oLfNI",
+      trackSrc: "/Kamikaze/Paul (Skit).mp3",
+    },
+    {
+      albumId: "3HNnxK7NgLXbDoxRZxNWiR",
+      trackId: "0evt4UZbdhnHtcAnxkm6A1",
+      trackSrc: "/Kamikaze/Normal.mp3",
+    },
   ];
   return (
     <div className="one-album-data">

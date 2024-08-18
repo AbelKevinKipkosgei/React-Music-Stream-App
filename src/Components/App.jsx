@@ -145,6 +145,28 @@ function App() {
         "/Revival/Eminem - River (Audio) ft. Ed Sheeran.mp3",
       ],
     },
+    {
+      id: "4otkd9As6YaxxEkIjXPiZ6",
+      name: "Music To Be Murdered By",
+      trackfiles: [
+        "/MusicToBeMurderedBy/Premonition - Intro Official Audio.mp3",
+        "/MusicToBeMurderedBy/Unaccommodating (feat. Young M.A) Official Audio.mp3",
+        "/MusicToBeMurderedBy/You Gon Learn (feat. Royce Da 59 White Gold) Official Audio.mp3",
+        "/MusicToBeMurderedBy/Alfred (Interlude).mp3",
+        "/MusicToBeMurderedBy/Those Kinda Nights (feat. Ed Sheeran) Official Audio.mp3",
+      ],
+    },
+    {
+      id: "3HNnxK7NgLXbDoxRZxNWiR",
+      name: "Kamikaze",
+      trackfiles: [
+        "/Kamikaze/The Ringer.mp3",
+        "/Kamikaze/Greatest.mp3",
+        "/Kamikaze/Lucky You (Feat. Joyner Lucas) Official Audio.mp3",
+        "/Kamikaze/Paul (Skit).mp3",
+        "/Kamikaze/Normal.mp3",
+      ],
+    },
   ];
   return (
     <Router>
