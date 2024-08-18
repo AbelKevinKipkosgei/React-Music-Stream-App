@@ -6,7 +6,7 @@ function Home() {
     <div className="home">
       <h1>Superpowered Sounds: How Heroes Tune into Music</h1>
       <div className="card">
-        <img src="/public/groovewave/batman guitar.jpeg" alt="Batman Guitar" />
+        <img src="/groovewave/batman guitar.jpeg" alt="Batman Guitar" />
         <article>
           <h3>Batman’s Secret Passion: The Dark Knight’s Love for Music</h3>
           <p>
@@ -28,7 +28,7 @@ function Home() {
       </div>
       <div className="card">
         <img
-          src="/public/groovewave/Captain America - The Rhythm Commander.jpeg"
+          src="/groovewave/Captain America - The Rhythm Commander.jpeg"
           alt="Captain America DJ"
         />
         <article>
@@ -55,7 +55,7 @@ function Home() {
       </div>
       <div className="card">
         <img
-          src="/public/groovewave/Superman - The Sonic Soarer.jpeg"
+          src="/groovewave/Superman - The Sonic Soarer.jpeg"
           alt="Superman DJ"
         />
         <article>
@@ -80,7 +80,7 @@ function Home() {
       </div>
       <div className="card">
         <img
-          src="/public/groovewave/Deadpool - The Merc with a Mix.jpeg"
+          src="/groovewave/Deadpool - The Merc with a Mix.jpeg"
           alt="Deadpool DJ"
         />
         <article>
@@ -107,7 +107,7 @@ function Home() {
       </div>
       <div className="card">
         <img
-          src="/public/groovewave/green lantern guitar.jpeg"
+          src="/groovewave/green lantern guitar.jpeg"
           alt="Green Lantern Guitar"
         />
         <article>
@@ -133,7 +133,7 @@ function Home() {
       </div>
       <div className="card">
         <img
-          src="/public/groovewave/Black Panther - The Vibranium Grooves.jpeg"
+          src="/groovewave/Black Panther - The Vibranium Grooves.jpeg"
           alt="Black Panther DJ"
         />
         <article>
