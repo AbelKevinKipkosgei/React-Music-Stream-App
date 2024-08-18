@@ -46,6 +46,17 @@ function App() {
         "/EmpireOriginalSoundtrackSeason2Volume2(Deluxe)/Empire Cast - Like My Daddy (Official Audio) ft. Jussie Smollett.mp3",
       ],
     },
+    {
+      id: "3v2uuSLEPbCXLtZxVrGKcd",
+      name: "Empire: The Complete Season 1",
+      trackfiles: [
+        "/Empire: TheCompleteSeason1/V Bozeman - What Is Love.mp3",
+        "/Empire: TheCompleteSeason1/Jamal Hakeem of Empire - Live In the Moment feat Jussie Smollett Yazz.mp3",
+        "/Empire: TheCompleteSeason1/Empire Cast - Good Enough.mp3",
+        "/Empire: TheCompleteSeason1/Right There.mp3",
+        "/Empire: TheCompleteSeason1/Armani.mp3",
+      ],
+    },
   ];
   return (
     <Router>

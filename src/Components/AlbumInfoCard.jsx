@@ -94,6 +94,32 @@ function AlbumInfoCard({ albumInfo }) {
       trackSrc:
         "/EmpireOriginalSoundtrackSeason2Volume2(Deluxe)/Empire Cast - Like My Daddy (Official Audio) ft. Jussie Smollett.mp3",
     },
+    {
+      albumId: "3v2uuSLEPbCXLtZxVrGKcd",
+      trackId: "76z60uetkXxd6K3luTiO4K",
+      trackSrc: "/Empire: TheCompleteSeason1/V Bozeman - What Is Love.mp3",
+    },
+    {
+      albumId: "3v2uuSLEPbCXLtZxVrGKcd",
+      trackId: "1dYdSMAEwQwijL7hRpZme2",
+      trackSrc:
+        "/Empire: TheCompleteSeason1/Jamal Hakeem of Empire - Live In the Moment feat Jussie Smollett Yazz.mp3",
+    },
+    {
+      albumId: "3v2uuSLEPbCXLtZxVrGKcd",
+      trackId: "1ifUqKSDlpRXgFuuFVqdmP",
+      trackSrc: "/Empire: TheCompleteSeason1/Empire Cast - Good Enough.mp3",
+    },
+    {
+      albumId: "3v2uuSLEPbCXLtZxVrGKcd",
+      trackId: "4YUBufbyqgCS2xwOzlMDdb",
+      trackSrc: "/Empire: TheCompleteSeason1/Right There.mp3",
+    },
+    {
+      albumId: "3v2uuSLEPbCXLtZxVrGKcd",
+      trackId: "2eZ13b4AChKz2eYytbsqd6",
+      trackSrc: "/Empire: TheCompleteSeason1/Armani.mp3",
+    },
   ];
   return (
     <div className="one-album-data">
