@@ -5,7 +5,7 @@
   padding: 5px;
   border-radius: 5px;
   margin: 0 6px 6px;
-  background: rgb(67, 249, 255);
+  background: rgb(104, 104, 104);
   text-decoration: none;
   text-align: center;
   font-size: min(10vw, 15px);
@@ -13,6 +13,6 @@
 }
 
 a.active {
-  background: rgb(104, 104, 104);
+  background: rgb(202, 202, 202);
   color: white;
 }
