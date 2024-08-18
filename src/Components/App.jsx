@@ -101,6 +101,28 @@ function App() {
         "/TheMarshallMathersLP2(Expanded Edition)/Survival.mp3",
       ],
     },
+    {
+      id: "3aTuW4BtsyyyyQa9LKqj8n",
+      name: "Curtain Call 2",
+      trackfiles: [
+        "/CurtainCall2/Eminem - Godzilla ft. Juice WRLD (Official Music Video).mp3",
+        "/CurtainCall2/Eminem - Lucky You (Official Music Video) ft. Joyner Lucas.mp3",
+        "/CurtainCall2/Bad Meets Evil - Lighters ft. Bruno Mars.mp3",
+        "/CurtainCall2/Eminem - GNAT (Official Music Video).mp3",
+        "/CurtainCall2/Cinderella Man.mp3",
+      ],
+    },
+    {
+      id: "6EzbFdrwvWpnpUjzrR57aU",
+      name: "The Eminem Show (Expanded Edition)",
+      trackfiles: [
+        "/TheEminemShow(ExpandedEdition)/Curtains Up (Skit).mp3",
+        "/TheEminemShow(ExpandedEdition)/White America.mp3",
+        "/TheEminemShow(ExpandedEdition)/Business.mp3",
+        "/TheEminemShow(ExpandedEdition)/Eminem - Cleanin Out My Closet (Official Music Video).mp3",
+        "/TheEminemShow(ExpandedEdition)/Square Dance.mp3",
+      ],
+    },
   ];
   return (
     <Router>

@@ -235,6 +235,59 @@ function AlbumInfoCard({ albumInfo }) {
       trackId: "5GEehBTspT5vfv3cGDoaDi",
       trackSrc: "/TheMarshallMathersLP2(Expanded Edition)/Survival.mp3",
     },
+    {
+      albumId: "3aTuW4BtsyyyyQa9LKqj8n",
+      trackId: "1IiOIBsOQrQvcge0HiwF90",
+      trackSrc:
+        "/CurtainCall2/Eminem - Godzilla ft. Juice WRLD (Official Music Video).mp3",
+    },
+    {
+      albumId: "3aTuW4BtsyyyyQa9LKqj8n",
+      trackId: "3Rr8Mew8NQSdxKsjkAhIrD",
+      trackSrc:
+        "/CurtainCall2/Eminem - Lucky You (Official Music Video) ft. Joyner Lucas.mp3",
+    },
+    {
+      albumId: "3aTuW4BtsyyyyQa9LKqj8n",
+      trackId: "6h5hNqTZRLlcRcFWsK6XhW",
+      trackSrc: "/CurtainCall2/Bad Meets Evil - Lighters ft. Bruno Mars.mp3",
+    },
+    {
+      albumId: "3aTuW4BtsyyyyQa9LKqj8n",
+      trackId: "5Dl3rpoBEgHKctcUt5SZGC",
+      trackSrc: "/CurtainCall2/Eminem - GNAT (Official Music Video).mp3",
+    },
+    {
+      albumId: "3aTuW4BtsyyyyQa9LKqj8n",
+      trackId: "5eePARgaJdjj41WMgvctZE",
+      trackSrc: "/CurtainCall2/Cinderella Man.mp3",
+    },
+    {
+      albumId: "6EzbFdrwvWpnpUjzrR57aU",
+      trackId: "16bZ4F7gikXyMYhlDJpGDd",
+      trackSrc: "/TheEminemShow(ExpandedEdition)/Curtains Up (Skit).mp3",
+    },
+    {
+      albumId: "6EzbFdrwvWpnpUjzrR57aU",
+      trackId: "7HUQjZDqbet6uQW1p3EDGc",
+      trackSrc: "/TheEminemShow(ExpandedEdition)/White America.mp3",
+    },
+    {
+      albumId: "6EzbFdrwvWpnpUjzrR57aU",
+      trackId: "6sWiC5rpM1o3rnjCgd0hEG",
+      trackSrc: "/TheEminemShow(ExpandedEdition)/Business.mp3",
+    },
+    {
+      albumId: "6EzbFdrwvWpnpUjzrR57aU",
+      trackId: "6XK173kEu52iupeIqOnp41",
+      trackSrc:
+        "/TheEminemShow(ExpandedEdition)/Eminem - Cleanin Out My Closet (Official Music Video).mp3",
+    },
+    {
+      albumId: "6EzbFdrwvWpnpUjzrR57aU",
+      trackId: "10WTBqxaEVRDwbIaZB1jpr",
+      trackSrc: "/TheEminemShow(ExpandedEdition)/Square Dance.mp3",
+    },
   ];
   return (
     <div className="one-album-data">
