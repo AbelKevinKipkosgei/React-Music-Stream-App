@@ -167,6 +167,28 @@ function App() {
         "/Kamikaze/Normal.mp3",
       ],
     },
+    {
+      id: "7GZwgBHhaazZ2QnrvbpDPO",
+      name: "COMING HOME (Expanded Edition)",
+      trackfiles: [
+        "/COMINGHOME(ExpandedEdition)/USHER, Burna Boy - Coming Home (Visualizer).mp3",
+        "/COMINGHOME(ExpandedEdition)/USHER, Summer Walker, 21 Savage - Good Good (Official Music Video).mp3",
+        "/COMINGHOME(ExpandedEdition)/USHER - A-Town Girl (Visualizer) ft. Latto.mp3",
+        "/COMINGHOME(ExpandedEdition)/USHER, The-Dream - Cold Blooded (Visualizer).mp3",
+        "/COMINGHOME(ExpandedEdition)/USHER - Kissing Strangers (Visualizer).mp3",
+      ],
+    },
+    {
+      id: "7Ic1aiLXMmyyi0cVkk04aS",
+      name: "COMING HOME",
+      trackfiles: [
+        "/COMINGHOME/USHER, Burna Boy - Coming Home (Visualizer).mp3",
+        "/COMINGHOME/USHER, Summer Walker, 21 Savage - Good Good (Official Music Video).mp3",
+        "/COMINGHOME/USHER - A-Town Girl (Visualizer) ft. Latto.mp3",
+        "/COMINGHOME/USHER, The-Dream - Cold Blooded (Visualizer).mp3",
+        "/COMINGHOME/USHER - Kissing Strangers (Visualizer).mp3",
+      ],
+    },
   ];
   return (
     <Router>

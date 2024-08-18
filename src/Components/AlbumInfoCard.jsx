@@ -395,6 +395,62 @@ function AlbumInfoCard({ albumInfo }) {
       trackId: "0evt4UZbdhnHtcAnxkm6A1",
       trackSrc: "/Kamikaze/Normal.mp3",
     },
+    {
+      albumId: "7GZwgBHhaazZ2QnrvbpDPO",
+      trackId: "22iJ0QhkHgDYBOCJG1qlQk",
+      trackSrc:
+        "/COMINGHOME(ExpandedEdition)/USHER, Burna Boy - Coming Home (Visualizer).mp3",
+    },
+    {
+      albumId: "7GZwgBHhaazZ2QnrvbpDPO",
+      trackId: "0WC0lsZqjrmecGTSF23688",
+      trackSrc:
+        "/COMINGHOME(ExpandedEdition)/USHER, Summer Walker, 21 Savage - Good Good (Official Music Video).mp3",
+    },
+    {
+      albumId: "7GZwgBHhaazZ2QnrvbpDPO",
+      trackId: "2qpYyda1trB5yhLUxGKhla",
+      trackSrc:
+        "/COMINGHOME(ExpandedEdition)/USHER - A-Town Girl (Visualizer) ft. Latto.mp3",
+    },
+    {
+      albumId: "7GZwgBHhaazZ2QnrvbpDPO",
+      trackId: "5lKmuhEhoiJbt43TKJ87F5",
+      trackSrc:
+        "/COMINGHOME(ExpandedEdition)/USHER, The-Dream - Cold Blooded (Visualizer).mp3",
+    },
+    {
+      albumId: "7GZwgBHhaazZ2QnrvbpDPO",
+      trackId: "3qEWYiHmoeUjjrfhPLltRk",
+      trackSrc:
+        "/COMINGHOME(ExpandedEdition)/USHER - Kissing Strangers (Visualizer).mp3",
+    },
+    {
+      albumId: "7Ic1aiLXMmyyi0cVkk04aS",
+      trackId: "2cJq3u0BRlsGFOYqP9KidJ",
+      trackSrc: "/COMINGHOME/USHER, Burna Boy - Coming Home (Visualizer).mp3",
+    },
+    {
+      albumId: "7Ic1aiLXMmyyi0cVkk04aS",
+      trackId: "3jK1QRugwuAKAKOrtac7a2",
+      trackSrc:
+        "/COMINGHOME/USHER, Summer Walker, 21 Savage - Good Good (Official Music Video).mp3",
+    },
+    {
+      albumId: "7Ic1aiLXMmyyi0cVkk04aS",
+      trackId: "2FPn9y8gvvrp9gydZmGpvT",
+      trackSrc: "/COMINGHOME/USHER - A-Town Girl (Visualizer) ft. Latto.mp3",
+    },
+    {
+      albumId: "7Ic1aiLXMmyyi0cVkk04aS",
+      trackId: "1XY0fx2ZCNPrWYC3GNavRp",
+      trackSrc: "/COMINGHOME/USHER, The-Dream - Cold Blooded (Visualizer).mp3",
+    },
+    {
+      albumId: "7Ic1aiLXMmyyi0cVkk04aS",
+      trackId: "5brMixqQiQN4D60xmvrSts",
+      trackSrc: "/COMINGHOME/USHER - Kissing Strangers (Visualizer).mp3",
+    },
   ];
   return (
     <div className="one-album-data">
